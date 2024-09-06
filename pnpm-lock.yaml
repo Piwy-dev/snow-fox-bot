@@ -14,9 +14,15 @@ importers:
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
+      fs:
+        specifier: 0.0.1-security
+        version: 0.0.1-security
       mongoose:
         specifier: ^8.6.1
         version: 8.6.1
+      ms:
+        specifier: ^2.1.3
+        version: 2.1.3
 
 packages:
 
@@ -108,6 +114,9 @@ packages:
 
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
+
+  fs@0.0.1-security:
+    resolution: {integrity: sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==}
 
   kareem@2.6.3:
     resolution: {integrity: sha512-C3iHfuGUXK2u8/ipq9LfjFfXFxAZMQJJq7vLS45r3D9Y2xQ/m4S8zaR4zMLFWh9AsNPXmcFfUDhTEO8UIC/V6Q==}
@@ -326,6 +335,8 @@ snapshots:
   dotenv@16.4.5: {}
 
   fast-deep-equal@3.1.3: {}
+
+  fs@0.0.1-security: {}
 
   kareem@2.6.3: {}
 
